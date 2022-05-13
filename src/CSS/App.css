@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background-color: #f5f6fa;
+}
+
+.app__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.app__stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.App {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.app__left {
+  flex: 0.8;
+}
+
+.app__right {
+  flex: 0.2;
+}
+
+.flag {
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+}
+
+.MuiSelect-root
+  .MuiSelect-select
+  .MuiSelect-selectMenu
+  .MuiSelect-outlined
+  .MuiInputBase-input
+  .MuiOutlinedInput-input {
+  display: flex;
+  align-items: center;
+}
+.MuiFormControl-root {
+  width: fit-content;
+}
+
+@media screen and (max-width: 780px) {
+  .App {
+    flex-direction: column;
+  }
+}
